@@ -1,2 +1,63 @@
-# Dart Resumo
- Documentação introdutoria ao dart
+# Documentação Dart: Guia Completo
+
+## Introdução
+Bem-vindo ao ebook "Documentação Dart: Guia Completo". Neste livro, você encontrará um conteúdo abrangente sobre a linguagem de programação Dart, desde os conceitos básicos até tópicos avançados. Seja você um iniciante em Dart ou um desenvolvedor experiente em busca de uma referência completa, este guia foi criado para atender às suas necessidades. Vamos mergulhar no mundo do Dart e explorar todas as suas incríveis características.
+
+- [Capítulo 1: Introdução ao Dart](capitulos/cap1.md)
+  - 1.1 O que é Dart?
+  - 1.2 História do Dart
+  - 1.3 Instalando o Dart
+  - 1.4 Configurando o ambiente de desenvolvimento
+- [Capítulo 2: Conceitos Básicos](capitulos/cap2.md)
+  - 2.1 Sintaxe do Dart
+  - 2.2 Variáveis e Tipos de Dados
+  - 2.3 Estruturas de Controle
+  - 2.4 Funções
+  - 2.5 Trabalhando com Listas, Mapas e Conjuntos
+  - 2.6 Classes e Objetos
+- [Capítulo 3: Programação Orientada a Objetos](capitulos/cap3.md)
+  - 3.1 Herança
+  - 3.2 Encapsulamento
+  - 3.3 Polimorfismo
+  - 3.4 Interfaces
+  - 3.5 Mixins
+- [Capítulo 4: Manipulação de Exceções](capitulos/cap4.md)
+  - 4.1 Lidando com Exceções
+  - 4.2 Capturando e Lançando Exceções
+  - 4.3 Hierarquia de Exceções
+- [Capítulo 5: Programação Assíncrona](capitulos/cap5.md)
+  - 5.1 Trabalhando com Future e async/await
+  - 5.2 Streams
+  - 5.3 Gerenciamento de Tarefas Assíncronas
+  - 5.4 Tratando Erros em Operações Assíncronas
+- [Capítulo 6: Manipulação de Arquivos](capitulos/cap6.md)
+  - 6.1 Leitura e Escrita de Arquivos
+  - 6.2 Diretórios e Gerenciamento de Arquivos
+- [Capítulo 7: Desenvolvimento de Aplicações Web com Dart](capitulos/cap7.md)
+  - 7.1 Introdução ao Desenvolvimento Web com Dart
+  - 7.2 Manipulação do DOM
+  - 7.3 Comunicação com Servidor
+  - 7.4 Gerenciamento de Estado de Aplicativos Web
+- [Capítulo 8: Desenvolvimento de Aplicações Mobile com Dart](capitulos/cap8.md)
+  - 8.1 Flutter: Uma Introdução
+  - 8.2 Widgets e Layouts
+  - 8.3 Navegação e Rotas
+  - 8.4 Acesso a Recursos do Dispositivo
+  - 8.5 Gerenciamento de Estado em Aplicativos Flutter
+- [Capítulo 9: Testes e Depuração](capitulos/cap9.md)
+  - 9.1 Escrevendo Testes Unitários
+  - 9.2 Testes de Integração
+  - 9.3 Ferramentas de Depuração
+- [Capítulo 10: Bibliotecas e Pacotes](capitulos/cap10.md)
+  - 10.1 Gerenciamento de Dependências
+  - 10.2 Uso de Bibliotecas e Pacotes Externos
+  - 10.3 Publicando seu Próprio Pacote
+- [Capítulo 11: Melhores Práticas e Dicas Avançadas](capitulos/cap11.md)
+  - 11.1 Boas Práticas de Codificação em Dart
+  - 11.2 Otimização de Desempenho
+  - 11.3 Padrões de Design Comuns
+  - 11.4 Dicas Avançadas de Utilização da Linguagem
+- [Capítulo 12: Arquitetura de Aplicativos Dart - MVC e MVVM](capitulos/cap12.md)
+  - 12.1 Arquitetura MVC (Model-View-Controller)
+  - 12.2 Arquitetura MVVM (Model-View-ViewModel)
+  - 12.3 Escolhendo a Arquitetura Certa
