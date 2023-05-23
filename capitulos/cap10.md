@@ -1,8 +1,8 @@
-Capítulo 10: Bibliotecas e Pacotes
+# Capítulo 10: Bibliotecas e Pacotes
 
 As bibliotecas e pacotes são componentes fundamentais no desenvolvimento de aplicativos em Dart. Neste capítulo, exploraremos como criar, usar e compartilhar bibliotecas e pacotes em seus projetos. Vamos começar!
 
-10.1 O que são Bibliotecas?
+## 10.1 O que são Bibliotecas?
 
 Em Dart, as bibliotecas são coleções de código que fornecem funcionalidades reutilizáveis. Elas nos permitem organizar e modularizar nosso código, tornando-o mais legível e fácil de manter. O Dart SDK já inclui várias bibliotecas padrão que oferecem recursos e funcionalidades para uma ampla variedade de casos de uso.
 
@@ -18,7 +18,7 @@ void main() {
 
 Neste exemplo, usamos a função `sqrt()` da biblioteca `dart:math` para calcular a raiz quadrada de 25.
 
-10.2 O que são Pacotes?
+## 10.2 O que são Pacotes?
 
 Pacotes são coleções de bibliotecas, arquivos e recursos relacionados que podem ser distribuídos e reutilizados em projetos Dart. Eles fornecem uma maneira conveniente de compartilhar e utilizar código entre projetos.
 
@@ -33,7 +33,7 @@ dependencies:
 
 Depois de adicionar a dependência, execute o comando `pub get` no terminal para baixar o pacote.
 
-10.3 Publicando seus Pacotes
+## 10.3 Publicando seus Pacotes
 
 Se você desenvolver um pacote em Dart que deseja compartilhar com a comunidade, pode publicá-lo no repositório de pacotes do Dart, o Pub.dev. O Pub.dev é um diretório online que hospeda pacotes Dart para que outros desenvolvedores possam descobrir, usar e contribuir.
 
