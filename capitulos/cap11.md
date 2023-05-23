@@ -1,12 +1,12 @@
-Capítulo 11: Melhores Práticas e Dicas Avançadas
+# Capítulo 11: Melhores Práticas e Dicas Avançadas
 
 Neste capítulo final, exploraremos algumas melhores práticas e dicas avançadas para o desenvolvimento em Dart. Essas práticas podem ajudar a melhorar a eficiência, legibilidade e qualidade do seu código. Vamos começar!
 
-11.1 Utilize o Estilo de Código Dart
+## 11.1 Utilize o Estilo de Código Dart
 
 Ao escrever código em Dart, é recomendado seguir as diretrizes de estilo de código Dart para manter um estilo consistente e legível. Essas diretrizes incluem convenções de nomenclatura, espaçamento, indentação e muito mais. O Dart SDK fornece uma ferramenta chamada `dartfmt` que pode ser usada para formatar automaticamente seu código de acordo com as diretrizes de estilo.
 
-11.2 Mantenha o Código Limpo
+## 11.2 Mantenha o Código Limpo
 
 Manter o código limpo é essencial para facilitar a leitura, manutenção e colaboração. Aqui estão algumas práticas recomendadas para manter o código limpo em Dart:
 
@@ -18,7 +18,7 @@ Manter o código limpo é essencial para facilitar a leitura, manutenção e col
 
 - Mantenha uma estrutura de diretórios organizada: Separe seu código em diretórios e arquivos que façam sentido para a estrutura do seu projeto.
 
-11.3 Otimize o Desempenho
+## 11.3 Otimize o Desempenho
 
 Para garantir um bom desempenho em seus aplicativos Dart, aqui estão algumas dicas de otimização:
 
@@ -28,14 +28,12 @@ Para garantir um bom desempenho em seus aplicativos Dart, aqui estão algumas di
 
 - Utilize coleções eficientes: Escolha as estruturas de dados corretas para suas necessidades. Por exemplo, use `List` para uma coleção ordenada e `Set` para uma coleção sem duplicatas.
 
-11.4 Documente o seu Código
+## 11.4 Documente o seu Código
 
 A documentação adequada do código é essencial para facilitar a compreensão e o uso do seu código por outros desenvolvedores. Utilize comentários e anotações de documentação para descrever a funcionalidade, parâmetros e retornos das suas funções, classes e métodos. Isso ajudará os outros desenvolvedores a entenderem como usar e estender seu código.
 
-11.5 Mantenha-se Atualizado
+## 11.5 Mantenha-se Atualizado
 
 Dart é uma linguagem em constante evolução, com atualizações e novos recursos lançados regularmente. É importante se manter atualizado com as novidades do Dart e do Flutter, aproveitando os recursos mais recentes e melhores práticas.
 
-Parabéns por concluir o capítulo 11 e o guia completo sobre a documentação do Dart! Agora você possui uma base sólida para desenvolver aplicativos eficientes e
-
- de alta qualidade em Dart. Continue praticando, explorando e aprimorando suas habilidades de programação para se tornar um desenvolvedor Dart ainda mais competente.
+Parabéns por concluir o capítulo 11 e o guia completo sobre a documentação do Dart! Agora você possui uma base só lida para desenvolver aplicativos eficientes e de alta qualidade em Dart. Continue praticando, explorando e aprimorando suas habilidades de programação para se tornar um desenvolvedor Dart ainda mais competente.
