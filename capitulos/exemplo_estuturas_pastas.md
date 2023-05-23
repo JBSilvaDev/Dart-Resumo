@@ -1,35 +1,43 @@
+Aqui está a análise dos dados com as alterações e formatações necessárias:
+
 # MVVM
-Em um cenário em que você tem dois modelos, UserModel e AdmModel, a estrutura de pastas em um projeto com o padrão MVVM poderia ser organizada da seguinte forma:
-Aqui está a estrutura de pastas para a abordagem MVVM considerando as entidades `UserModel` e `AdmModel:
-> Metodo separando por entidades/tipo
-- `lib/`
-  - `user/`
-    - `models/`
-      - `user_model.dart` (arquivo contendo o UserModel)
-    - `viewmodels/`
-      - `user_viewmodel.dart` (arquivo contendo o UserViewModel)
-    - `views/`
-      - `user_view.dart` (arquivo contendo a UserView)
-  - `adm/`
-    - `models/`
-      - `adm_model.dart` (arquivo contendo o AdmModel)
-    - `viewmodels/`
-      - `adm_viewmodel.dart` (arquivo contendo o AdmViewModel)
-    - `views/`
-      - `adm_view.dart` (arquivo contendo a AdmView)
-  - `main.dart` (arquivo principal do aplicativo)
-> Metodo sepadado apenas por tipo
-- `lib/`
-  - `models/`
-    - `user_model.dart` (arquivo contendo o UserModel)
-    - `adm_model.dart` (arquivo contendo o AdmModel)
-  - `viewmodels/`
-    - `user_viewmodel.dart` (arquivo contendo o UserViewModel)
-    - `adm_viewmodel.dart` (arquivo contendo o AdmViewModel)
-  - `views/`
-    - `user_view.dart` (arquivo contendo a UserView)
-    - `adm_view.dart` (arquivo contendo a AdmView)
-  - `main.dart` (arquivo principal do aplicativo)
+
+Em um cenário em que você tem dois modelos, `UserModel` e `AdmModel`, a estrutura de pastas em um projeto com o padrão MVVM poderia ser organizada da seguinte forma:
+
+Método separando por entidades/tipo:
+```
+lib/
+  user/
+    models/
+      user_model.dart (arquivo contendo o UserModel)
+    viewmodels/
+      user_viewmodel.dart (arquivo contendo o UserViewModel)
+    views/
+      user_view.dart (arquivo contendo a UserView)
+  adm/
+    models/
+      adm_model.dart (arquivo contendo o AdmModel)
+    viewmodels/
+      adm_viewmodel.dart (arquivo contendo o AdmViewModel)
+    views/
+      adm_view.dart (arquivo contendo a AdmView)
+  main.dart (arquivo principal do aplicativo)
+```
+
+Método separado apenas por tipo:
+```
+lib/
+  models/
+    user_model.dart (arquivo contendo o UserModel)
+    adm_model.dart (arquivo contendo o AdmModel)
+  viewmodels/
+    user_viewmodel.dart (arquivo contendo o UserViewModel)
+    adm_viewmodel.dart (arquivo contendo o AdmViewModel)
+  views/
+    user_view.dart (arquivo contendo a UserView)
+    adm_view.dart (arquivo contendo a AdmView)
+  main.dart (arquivo principal do aplicativo)
+```
 
 Nessa estrutura, você tem uma pasta separada para cada entidade (`user` e `adm`). Dentro de cada pasta, há subpastas para `models`, `viewmodels` e `views`, refletindo a arquitetura MVVM.
 
@@ -44,37 +52,45 @@ O arquivo `main.dart` continua sendo o ponto de entrada do aplicativo, onde voc�
 Essa estrutura segue a arquitetura MVVM, separando os modelos, os view models e as visualizações em diretórios distintos, o que facilita a organização e a manutenção do código.
 
 # MVC
-Em um projeto com a arquitetura MVC (Model-View-Controller) e considerando os modelos UserModel e AdmModel, a estrutura de pastas poderia ser organizada da seguinte forma:
 
-> Metodo separando por entidades/tipo
-- `lib/`
-  - `user/`
-    - `models/`
-      - `user_model.dart` (arquivo contendo o UserModel)
-    - `views/`
-      - `user_view.dart` (arquivo contendo a UserView)
-    - `controllers/`
-      - `user_controller.dart` (arquivo contendo o UserController)
-  - `adm/`
-    - `models/`
-      - `adm_model.dart` (arquivo contendo o AdmModel)
-    - `views/`
-      - `adm_view.dart` (arquivo contendo a AdmView)
-    - `controllers/`
-      - `adm_controller.dart` (arquivo contendo o AdmController)
-  - `main.dart` (arquivo principal do aplicativo)
-> Metodo sepadado apenas por tipo
-- `lib/`
-  - `models/`
-    - `user_model.dart` (arquivo contendo o UserModel)
-    - `adm_model.dart` (arquivo contendo o AdmModel)
-  - `views/`
-    - `user_view.dart` (arquivo contendo a UserView)
-    - `adm_view.dart` (arquivo contendo a AdmView)
-  - `controllers/`
-    - `user_controller.dart` (arquivo contendo o UserController)
-    - `adm_controller.dart` (arquivo contendo o AdmController)
-  - `main.dart` (arquivo principal do aplicativo)
+Em um projeto com a arquitetura MVC (Model-View-Controller) e considerando os modelos `UserModel` e `AdmModel`, a estrutura de pastas poderia ser organizada da seguinte forma:
+
+Método separando por entidades/tipo:
+```
+lib/
+  user/
+    models/
+      user_model.dart (arquivo contendo o UserModel)
+    views/
+      user_view.dart (arquivo contendo a UserView)
+    controllers/
+      user_controller.dart (arquivo contendo o UserController)
+  adm/
+    models/
+      adm_model.dart (arquivo contendo o AdmModel)
+
+
+    views/
+      adm_view.dart (arquivo contendo a AdmView)
+    controllers/
+      adm_controller.dart (arquivo contendo o AdmController)
+  main.dart (arquivo principal do aplicativo)
+```
+
+Método separado apenas por tipo:
+```
+lib/
+  models/
+    user_model.dart (arquivo contendo o UserModel)
+    adm_model.dart (arquivo contendo o AdmModel)
+  views/
+    user_view.dart (arquivo contendo a UserView)
+    adm_view.dart (arquivo contendo a AdmView)
+  controllers/
+    user_controller.dart (arquivo contendo o UserController)
+    adm_controller.dart (arquivo contendo o AdmController)
+  main.dart (arquivo principal do aplicativo)
+```
 
 Nessa estrutura, você tem uma pasta separada para cada entidade (`user` e `adm`). Dentro de cada pasta, há subpastas para `models`, `views` e `controllers`. Isso permite uma organização mais granular dos arquivos relacionados a cada entidade.
 
