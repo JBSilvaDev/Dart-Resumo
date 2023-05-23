@@ -1,14 +1,14 @@
-Capítulo 7: Desenvolvimento de Aplicações Web com Dart
+# Capítulo 7: Desenvolvimento de Aplicações Web com Dart
 
 O Dart é uma linguagem versátil que pode ser usada para desenvolver aplicativos web modernos e interativos. Neste capítulo, vamos explorar como utilizar o Dart para o desenvolvimento de aplicações web, incluindo a criação de interfaces de usuário, a interação com elementos da página e a realização de chamadas assíncronas. Vamos começar!
 
-7.1 Configuração do Ambiente
+## 7.1 Configuração do Ambiente
 
 Antes de começar a desenvolver aplicações web com Dart, é necessário configurar o ambiente de desenvolvimento. Certifique-se de ter o Dart SDK instalado em seu sistema e um editor de código compatível com o Dart, como o Visual Studio Code.
 
 Além disso, para criar aplicações web com Dart, você pode utilizar o framework Flutter, que suporta o desenvolvimento tanto de aplicações móveis quanto web. Certifique-se de ter o Flutter SDK instalado e configurado em seu ambiente.
 
-7.2 Criação da Interface de Usuário
+## 7.2 Criação da Interface de Usuário
 
 Para criar a interface de usuário de uma aplicação web com Dart, podemos utilizar a biblioteca `dart:html`, que fornece acesso aos elementos e recursos da página web.
 
@@ -31,7 +31,7 @@ void main() {
 
 Neste exemplo, usamos o método `querySelector()` para obter uma referência para um elemento com o ID 'meu-botao' na página. Em seguida, adicionamos um evento de clique ao botão usando a propriedade `onClick`. Quando o botão for clicado, o código dentro do callback será executado.
 
-7.3 Interação com Elementos da Página
+## 7.3 Interação com Elementos da Página
 
 Além de criar interfaces de usuário, também podemos interagir com elementos da página web usando o Dart. Podemos manipular o conteúdo dos elementos, alterar estilos, adicionar ou remover elementos e muito mais.
 
@@ -59,13 +59,13 @@ void main() {
 }
 ```
 
-Neste exemplo, obtemos uma referência para um parágrafo com o ID 'meu-paragrafo' na página. Em seguida, alteramos o conteúdo do parágrafo usando a propriedade `text` e modificamos seu estilo usando a propriedade `style`.
+Neste exemplo, obtemos uma referência para um parágrafo com o ID 'meu-paragrafo' na página. Em seguida, alteramos o conteúdo do parágrafo usando a propriedade `text` e modificamos seu estilo usando a propried
 
-Também criamos um novo elemento de tag `<span>`, definimos seu texto e o
+ade `style`.
 
- adicionamos como filho do parágrafo usando o método `append()`.
+Também criamos um novo elemento de tag `<span>`, definimos seu texto e o adicionamos como filho do parágrafo usando o método `append()`.
 
-7.4 Chamadas Assíncronas
+## 7.4 Chamadas Assíncronas
 
 No desenvolvimento de aplicações web, frequentemente precisamos realizar chamadas assíncronas para buscar dados de APIs ou realizar operações demoradas. Podemos usar Futures e async/await em Dart para lidar com essas chamadas assíncronas de forma eficiente.
 
