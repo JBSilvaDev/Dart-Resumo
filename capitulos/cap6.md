@@ -1,8 +1,8 @@
-Capítulo 6: Manipulação de Arquivos
+# Capítulo 6: Manipulação de Arquivos
 
 A manipulação de arquivos é uma parte essencial da maioria dos aplicativos. Neste capítulo, exploraremos como trabalhar com arquivos em Dart, incluindo leitura, gravação e manipulação de dados de arquivos. Vamos começar!
 
-6.1 Acesso a Arquivos
+## 6.1 Acesso a Arquivos
 
 Em Dart, podemos acessar arquivos usando a classe `File` do pacote `dart:io`. Para usá-la, é necessário importar o pacote `dart:io` no início do arquivo.
 
@@ -19,7 +19,7 @@ void main() {
 
 Neste exemplo, criamos um objeto `File` que representa o arquivo localizado no caminho especificado. Agora, podemos usar o objeto `arquivo` para realizar operações de leitura e gravação nesse arquivo.
 
-6.2 Leitura de Arquivos
+## 6.2 Leitura de Arquivos
 
 Podemos ler o conteúdo de um arquivo usando o método `readAsString()` da classe `File`. Esse método retorna um Future que nos permite esperar pela conclusão da leitura.
 
@@ -41,7 +41,7 @@ void main() {
 
 Neste exemplo, usamos o método `readAsString()` para ler o conteúdo do arquivo e, em seguida, usamos o método `then()` para manipular o resultado quando a leitura estiver concluída. Dentro do método `then()`, imprimimos o conteúdo do arquivo. Se ocorrer um erro durante a leitura, usamos o método `catchError()` para lidar com o erro.
 
-6.3 Gravação de Arquivos
+## 6.3 Gravação de Arquivos
 
 Podemos gravar dados em um arquivo usando o método `writeAsString()` da classe `File`. Esse método retorna um Future que nos permite esperar pela conclusão da gravação.
 
@@ -64,19 +64,19 @@ void main() {
 
 Neste exemplo, usamos o método `writeAsString()` para gravar o conteúdo especificado no arquivo. Dentro do método `then()`, exibimos uma mensagem de sucesso após a gravação ser concluída. Se ocorrer um erro durante a gravação, usamos o método `catchError()` para lidar com o erro.
 
-6.4 Manipulação de Arquivos
+## 6.4 Manipulação de Arquivos
 
 Além da leitura e gravação de arquivos, Dart também oferece métodos para manipulação adicional, como renomear, excluir e verificar a existência de arquivos.
 
-Aqui está um exemplo de manipulação de arquivos em Dart:
+Aqui está um exemplo de
+
+ manipulação de arquivos em Dart:
 
 ```dart
 import 'dart:io';
 
 void main() {
-  var arquivo = File
-
-('caminho/do/arquivo.txt');
+  var arquivo = File('caminho/do/arquivo.txt');
 
   arquivo.rename('novo_nome.txt').then((_) {
     print('Arquivo renomeado com sucesso');
