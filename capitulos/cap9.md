@@ -1,8 +1,8 @@
-Capítulo 9: Testes e Depuração
+# Capítulo 9: Testes e Depuração
 
 A realização de testes e a depuração são partes essenciais do processo de desenvolvimento de software. Neste capítulo, exploraremos as práticas recomendadas para testar e depurar seus aplicativos Dart, garantindo a qualidade e a detecção de erros. Vamos começar!
 
-9.1 Testes Unitários
+## 9.1 Testes Unitários
 
 Os testes unitários são usados para verificar se partes específicas do seu código estão funcionando corretamente. Em Dart, podemos usar a biblioteca `test` para escrever testes unitários eficazes.
 
@@ -24,7 +24,7 @@ void main() {
 
 Neste exemplo, usamos a função `test()` da biblioteca `test` para escrever um teste. Dentro do teste, chamamos a função `somar()` com dois valores e verificamos se o resultado é igual a 5 usando a função `expect()`.
 
-9.2 Depuração
+## 9.2 Depuração
 
 A depuração é o processo de identificar e corrigir erros em seu código. Em Dart, podemos depurar nossos aplicativos usando ferramentas como o Dart Observatory, o Flutter DevTools e a impressão de logs.
 
@@ -36,7 +36,7 @@ Aqui estão algumas técnicas comuns de depuração em Dart:
 
 - Uso do Flutter DevTools: O Flutter DevTools é uma suíte de ferramentas para desenvolvedores Flutter. Ele fornece uma interface gráfica para depuração, inspeção de widgets, análise de desempenho e muito mais.
 
-9.3 Testes de Widget
+## 9.3 Testes de Widget
 
 Além dos testes unitários, também é importante testar a interface de usuário dos seus aplicativos. Em Flutter, podemos realizar testes de widget para garantir que os componentes da interface de usuário estejam funcionando corretamente.
 
@@ -66,8 +66,8 @@ void main() {
 }
 ```
 
-Neste exemplo, usamos a função `testWidgets()` do `flutter_test` para escrever um teste de widget. Dentro do teste, usamos a função `pumpWidget()` para construir o widget e o `find.text()` para localizar o botão na interface de
+Neste exemplo, usamos a função `testWidgets()` do `flutter_test` para escrever um teste de widget. Dentro do teste, usamos a função `pumpWidget()` para construir o widget e o `find.text()` para local
 
- usuário. Em seguida, usamos a função `tap()` para simular um toque no botão e a função `pump()` para atualizar a interface de usuário.
+izar o botão na interface de usuário. Em seguida, usamos a função `tap()` para simular um toque no botão e a função `pump()` para atualizar a interface de usuário.
 
 Parabéns por concluir o capítulo 9! Agora você está preparado para testar e depurar seus aplicativos Dart com confiança. Continue aprimorando suas habilidades de teste e depuração para desenvolver aplicativos de alta qualidade.
