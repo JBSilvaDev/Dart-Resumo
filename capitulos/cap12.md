@@ -1,10 +1,10 @@
-Capítulo 12: Arquitetura de Aplicativos Dart - MVC e MVVM
+# Capítulo 12: Arquitetura de Aplicativos Dart - MVC e MVVM
 
 A arquitetura de um aplicativo desempenha um papel crucial no desenvolvimento de software. Ela define como as diferentes partes do aplicativo se relacionam e interagem entre si. Neste capítulo, exploraremos duas arquiteturas populares em Dart: MVC (Model-View-Controller) e MVVM (Model-View-ViewModel). Vamos conhecer essas arquiteturas e entender como elas podem ser aplicadas no desenvolvimento de aplicativos Dart.
 
-12.1 Arquitetura MVC (Model-View-Controller)
+## 12.1 Arquitetura MVC (Model-View-Controller)
 
-O padrão de arquitetura MVC separa as responsabilidades do aplicativo em três componentes principais: o Model (modelo), a View (visão) e o Controller (controlador). Vejamos cada um desses componentes:
+O padrão de arquitetura MVC separa as responsabilidades do aplicativo em três componentes principais: o Model (modelo), a View (visão) e o Controller (controlador). Vamos conhecer cada um desses componentes:
 
 - Model (Modelo): O modelo representa a camada de dados do aplicativo. Ele lida com a lógica de negócios, a manipulação dos dados e a interação com as fontes de dados, como bancos de dados ou serviços da web.
 
@@ -14,7 +14,7 @@ O padrão de arquitetura MVC separa as responsabilidades do aplicativo em três 
 
 A arquitetura MVC promove a separação de preocupações, facilitando a manutenção e a evolução do aplicativo. Cada componente tem uma responsabilidade clara e pode ser modificado independentemente dos outros componentes.
 
-12.2 Arquitetura MVVM (Model-View-ViewModel)
+## 12.2 Arquitetura MVVM (Model-View-ViewModel)
 
 A arquitetura MVVM é uma variação da arquitetura MVC, introduzindo o conceito de ViewModel (Modelo de Visão). Ela também divide o aplicativo em três componentes principais: o Model, a View e o ViewModel. Vamos entender cada um desses componentes:
 
@@ -26,15 +26,15 @@ A arquitetura MVVM é uma variação da arquitetura MVC, introduzindo o conceito
 
 A principal diferença da arquitetura MVVM em relação ao MVC é que a visão não conhece diretamente o modelo. Em vez disso, ela se comunica com o ViewModel, que por sua vez interage com o modelo. Essa separação permite uma maior testabilidade e reutilização do código da visão.
 
-12.3 Escolhendo a Arquitetura Certa
+## 12.3 Escolhendo a Arquitetura Certa
 
-Tanto o MVC quanto o MVVM têm seus benefícios e são amplamente utilizados em aplicativos Dart. A escolha da arquitetura certa depende do tamanho e da complexidade do seu aplicativo, das necessidades
+Tanto o MVC quanto o MVVM têm seus benefícios e são amplamente utilizados em aplicativos Dart. A escolha da arquitetura certa depende do tamanho e da complexidade
 
- de teste, da escalabilidade e da equipe de desenvolvimento. É importante considerar os requisitos do seu projeto antes de escolher uma arquitetura.
+ do seu aplicativo, das necessidades de teste, da escalabilidade e da equipe de desenvolvimento. É importante considerar os requisitos do seu projeto antes de escolher uma arquitetura.
 
 Ambas as arquiteturas podem ser implementadas em Dart usando estruturas e bibliotecas disponíveis, como o Flutter. Existem pacotes e frameworks que oferecem suporte específico para MVC e MVVM, facilitando a implementação e o gerenciamento dos componentes.
 
-Conclusão
+## Conclusão
 
 Neste capítulo, exploramos as arquiteturas MVC e MVVM no contexto do desenvolvimento de aplicativos Dart. Ambas as arquiteturas fornecem uma estrutura sólida para a separação de responsabilidades e a organização do código. A escolha da arquitetura depende das necessidades e requisitos do seu projeto. Experimente as diferentes abordagens e encontre a que melhor se adapte ao seu estilo de desenvolvimento e ao seu aplicativo.
 
@@ -90,12 +90,12 @@ void main() {
   controller.updateUser('Maria', 35);
 }
 ```
+
 ## Exemplo de Implementação do MVVM:
 
 No padrão MVVM (Model-View-ViewModel), não há um componente chamado Controller. O ViewModel assume as responsabilidades tanto do Controller quanto do Model-View-Controller (MVC). O ViewModel age como um intermediário entre a View (Visão) e o Model (Modelo).
 
-
-Model (Modelo):
+Modelo (Modelo):
 ```dart
 class UserModel {
   String name;
@@ -105,7 +105,7 @@ class UserModel {
 }
 ```
 
-View (Visão):
+Visão (View):
 ```dart
 class UserView {
   void displayUserInfo(String name, int age) {
@@ -136,7 +136,9 @@ class UserViewModel {
 }
 ```
 
-Exemplo de Uso do MVVM:
+Ex
+
+emplo de Uso do MVVM:
 ```dart
 void main() {
   // Criando o objeto do modelo
@@ -152,6 +154,7 @@ void main() {
   viewModel.displayUserInfo();
 }
 ```
+
 Exemplos de arquitetura em pastas > [aqui](./exemplo_estuturas_pastas.md)
 
 O ViewModel é responsável por atualizar o modelo e fornecer os dados necessários para a View. A própria View é chamada a partir do ViewModel para exibir as informações atualizadas.
